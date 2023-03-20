@@ -91,10 +91,22 @@ date: 2022-03-19
 ### Set
 
 - **What is Set?**
+  - A set is a data structure that can store unique values of the same type in a sorted order. Each value is a key, which means that we access each value using the value itself. Unlike most other collection types, rather than retrieving a specific element from a set, one typically tests a value for membership in a set. Set objects also support mathematical operations like union, intersection, difference, and symmetric difference.
 - **Why is Set used?**
+  - Sets are used when you want unique elements in your data structure. They can be implemented using various data structures, which provide different time and space trade-offs for various operations. Some implementations are designed to improve the efficiency of very specialized operations, such as nearest or union. If you want high-performance element lookups, you can use set’s `has()` method.
 - **What are the advantage and disadvantage of Set?**
-
+  - **Advantages**
+    - Uniqueness
+    - Fast search
+    - Mathematical operations
+    - Efficient membership testing
+  - **Disadvantages**
+    - Unordered
+    - Limited indexing
+    - Immutability
+    - Overhead
 - **What's the difference between `Array` and `Linked List`?**
+  - image.png
 - **What's the difference between `Array` and `Map`?**
 - **What's the difference between `Array` and `Set`?**
 
